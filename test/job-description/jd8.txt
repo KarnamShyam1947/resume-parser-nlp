@@ -1,0 +1,41 @@
+
+AI/ML Full-Stack Developer
+
+We are seeking an innovative and driven AI/ML Full-Stack Developer to join our team. As an AI/ML Full-Stack Developer, you will be responsible for developing and implementing cutting-edge AI and machine learning solutions while also contributing to the full-stack development of various web applications. Your role will involve leveraging your expertise in Python, Java, and related technologies to build scalable and efficient systems. Additionally, you will play a key role in enhancing data privacy and security through techniques such as Federated Learning.
+
+Key Responsibilities:
+
+    Develop and deploy AI/ML models for various applications, including medical diagnosis, agriculture optimization, and IoT solutions.
+    Implement Federated Learning techniques to enhance data privacy and security, particularly in sensitive domains such as healthcare.
+    Collaborate with cross-functional teams to design and develop user-friendly web applications using Java EE, AngularJS, and other relevant technologies.
+    Utilize deep learning frameworks like TensorFlow to create advanced AI-based systems for tasks such as plant disease diagnosis and bird species identification.
+    Contribute to the full software development lifecycle, from requirements gathering to deployment and maintenance.
+    Stay updated with the latest industry trends and technologies, continuously enhancing your skills and knowledge.
+    Actively participate in research and publication activities, sharing insights and findings with the wider community.
+
+Required Skills and Qualifications:
+
+    Bachelor's or Master's degree in Computer Science, Engineering, or related field.
+    Strong proficiency in Python, Java, and related technologies.
+    Experience with AI/ML frameworks such as TensorFlow, scikit-learn, and Pandas.
+    Demonstrated expertise in full-stack development, including frameworks like Flask, SpringBoot, and AngularJS.
+    Solid understanding of database systems and SQL, including MySQL, SQLite, and MongoDB.
+    Knowledge of web development technologies such as HTML, CSS, and JavaScript.
+    Experience with version control systems like Git and developer tools like Maven.
+    Excellent problem-solving skills and a passion for continuous learning.
+    Strong communication and collaboration abilities, with the ability to work effectively in a team environment.
+
+Preferred Qualifications:
+
+    Experience with Federated Learning and other privacy-preserving machine learning techniques.
+    Familiarity with IoT technologies and platforms.
+    Previous research experience, including publications in reputable journals or conferences.
+
+Benefits:
+
+    Competitive salary and benefits package.
+    Opportunities for professional development and career growth.
+    Dynamic and collaborative work environment with a focus on innovation.
+    Chance to work on cutting-edge AI/ML projects with real-world impact.
+
+If you are a proactive and enthusiastic AI/ML Full-Stack Developer looking to make a meaningful contribution in a dynamic environment, we encourage you to apply and join our team!
