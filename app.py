@@ -1,4 +1,3 @@
-[200~
 from flask import Flask
 from flask_cors import CORS
 from werkzeug.datastructures import FileStorage
@@ -12,7 +11,7 @@ CORS(app)
 import spacy
 from pdfminer.high_level import extract_text
 
-nlp = spacy.load(model_path)
+nlp = spacy.load("output/model-best")
 
 def parse_resume(file_path):
     text = extract_text(file_path)
@@ -82,8 +81,7 @@ class ResumeParserController(Resource):
         resume.save('resume.pdf')
         resume_text = extract_text('resume.pdf')
 
-        score = tfidf_matcher(job_description, resume_text)                 if tfidf_matcher(job_description, resume_text) > count_matcher(job_description, resume_text)                 else count_matcher(job_description, resume_text)
-
+        score = tfidf_matcher(job_description, resume_text) if tfidf_matcher(job_description, resume_text) > count_matcher(job_description, resume_text)                 else count_matcher(job_description, resume_text)
 
         return {
             'score' : score[0]
@@ -95,12 +93,12 @@ class ResumeController(Resource):
     def post(self):
         args = resume_args.parse_args()
         resume = args['resume']
-        resume.save('/content/drive/MyDrive/resume-parser/test/resume.pdf')
+        resume.save(f'resume.pdf')
 
-        return parse_resume('/content/drive/MyDrive/resume-parser/test/resume.pdf')
+        return parse_resume(f'resume.pdf')
 
 api.add_namespace(resume_parser_controller)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
